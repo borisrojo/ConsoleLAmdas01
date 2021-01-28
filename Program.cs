@@ -50,7 +50,7 @@ namespace ConsoleLAmdas01
 
             //You enclose input parameters of a lambda expression in parentheses.Specify zero input parameters 
             //with empty parentheses:
-            Action line = () => Console.WriteLine("Galletita");
+            Action line = () => Console.WriteLine("Galletita 01");
             line();
 
             Func<double, double> cube = x => x * x * x;
